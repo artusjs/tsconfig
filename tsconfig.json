@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // Language and Environment
+    "target": "ES2017",
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "ESNext"
+    ],
+    "experimentalDecorators": true,
+    // Modules
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    // JavaScript support
+    "allowJs": false,
+    // Emit
+    "declaration": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "newLine": "LF",
+    "stripInternal": true,
+    "sourceMap": true,
+    // Completeness
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    // Interop Constraints
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // Type Checking
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

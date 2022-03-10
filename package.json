@@ -1,0 +1,28 @@
+{
+  "name": "@artus/tsconfig",
+  "version": "0.0.1",
+  "main": "tsconfig.json",
+  "description": "TSConfigs for Artus projects to extend.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artusjs/tsconfig.git"
+  },
+  "keywords": ["Artus", "tsconfig"],
+  "author": "Artus Work Group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artusjs/tsconfig/issues"
+  },
+  "homepage": "https://github.com/artusjs/tsconfig#readme",
+  "peerDependencies": {
+    "@types/node": "*"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    }
+  }
+}
