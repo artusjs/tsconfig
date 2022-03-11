@@ -4,13 +4,16 @@
   "main": "tsconfig.json",
   "description": "TSConfigs for Artus projects to extend.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config ./jest.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/artusjs/tsconfig.git"
   },
-  "keywords": ["Artus", "tsconfig"],
+  "keywords": [
+    "Artus",
+    "tsconfig"
+  ],
   "author": "Artus Work Group",
   "license": "MIT",
   "bugs": {
@@ -24,5 +27,11 @@
     "@types/node": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "coffee": "^5.4.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
   }
 }

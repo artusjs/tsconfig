@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    // "rootDir": "src",
     // Language and Environment
     "target": "ES2017",
     "types": [
@@ -34,6 +35,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
   }
 }
