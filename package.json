@@ -1,6 +1,6 @@
 {
   "name": "@artus/tsconfig",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "tsconfig.json",
   "description": "TSConfigs for Artus projects to extend.",
   "scripts": {
