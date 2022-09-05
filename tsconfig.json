@@ -3,9 +3,6 @@
     // "rootDir": "src",
     // Language and Environment
     "target": "ES2017",
-    "types": [
-      "node"
-    ],
     "lib": [
       "ESNext"
     ],
