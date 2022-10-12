@@ -18,7 +18,7 @@
     "importHelpers": true,
     "newLine": "LF",
     "stripInternal": true,
-    "sourceMap": true,
+    "sourceMap": false,
     // Completeness
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
